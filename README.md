@@ -2,9 +2,17 @@ Homer 7部署注意事项
 ========
 
 ## Setup
-
+#### 没有安装docker-compose时运行
 ```bash
-make run
+make build
+```
+#### 之后每次运行
+```bash
+make up
+```
+#### 停止服务
+```bash
+make down
 ```
 
 相关信息:
